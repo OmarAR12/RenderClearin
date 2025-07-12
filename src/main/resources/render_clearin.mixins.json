@@ -1,0 +1,13 @@
+
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "render_clearin.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "EntityRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

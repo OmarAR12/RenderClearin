@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "render_clearin",
+  "version": "1.0.0",
+  "name": "Render Clearin",
+  "description": "Hides all elements not in player's field of view (blocks, clouds, entities, particles, etc.).",
+  "authors": [
+    "OpenAI"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "render_clearin.RenderClearinClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.21.4",
+    "fabric": "*"
+  },
+  "mixins": [
+    "render_clearin.mixins.json"
+  ]
+}

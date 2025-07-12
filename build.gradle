@@ -1,0 +1,21 @@
+
+plugins {
+    id 'fabric-loom' version '1.6-SNAPSHOT'
+}
+
+group = 'com.example'
+version = '1.0.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    minecraft 'com.mojang:minecraft:1.21.4'
+    mappings 'net.fabricmc:yarn:1.21.4+build.1:v2'
+    modImplementation 'net.fabricmc:fabric-loader:0.15.0'
+}
+
+loom {
+    splitEnvironmentSourceSets()
+}
